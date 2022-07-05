@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 228, 216);
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;
+    right: 5px;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+}
+#name{
+    color: rgb(238, 174, 89);
+    font-size: 30px;
+    padding-right: 150px;
+}
+#HOME{
+    display: flex;
+    background-color: rgb(237, 187, 106);
+    height: 200px;
+    transform: translate(-50,250);
+    padding-top: 40px;
+    text-align: center;
+}
+#profilepic{
+    height: 180px;
+    width: 180px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 25px;
+}
+#ABOUT{
+    display:flex;
+    align-items: center;
+}
+#WORK{
+    background-color: gray;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    align-items: center;
+    height: 300px;
+}
+hr{
+    width: 400px;
+}
+.PROJECT{
+    background-color: rgba(48, 47, 47, 0.721);
+    color: black;
+    width: 300PX;
+    height: 200PX;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#WORK p hr{
+    margin-bottom: 20px;
+    color: rgb(40, 126, 126);
+}
+#WORK div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 70%;
+    
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 3px;
+}
+progress[value]{
+    height: 20px;
+    width: 450px;
+    -webkit-appearance: none;
+}
+#contact{
+    background-color: darkslategray;
+    color: black;
+    height: 200PX;
+    width: 300px;
+    flex-direction:row;
+    align-items: relative;
+    padding: 0px 0px 0px 100px;
+}
+#resume{
+    margin-left: 1200px;
+}
+.input{
+    height: 25px;
+    width: 250px;
+}
+
+
+
