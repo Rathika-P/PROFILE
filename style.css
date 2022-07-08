@@ -48,6 +48,7 @@ nav ul{
     padding: 10px;
     align-items: center;
     height: 300px;
+    border-radius: 80px;
 }
 hr{
     width: 400px;
@@ -89,11 +90,12 @@ progress[value]{
 #contact{
     background-color: darkslategray;
     color: black;
-    height: 200PX;
-    width: 300px;
+    height: 300PX;
+    width: 400px;
     flex-direction:row;
     align-items: relative;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 150px;
+    border-radius: 100px;
 }
 #resume{
     margin-left: 1200px;
@@ -102,6 +104,9 @@ progress[value]{
     height: 25px;
     width: 250px;
 }
-
+#intro{
+    text-align: center;
+    margin-bottom:150px ;
+}
 
 
